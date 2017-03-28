@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: Z2C-SpeechToTextV1
+  host: Z2C-SpeechToTextV1
+  disk_quota: 1024M
+  services:
+    - Speech To Text-12
+    - Text to Speech-cj
