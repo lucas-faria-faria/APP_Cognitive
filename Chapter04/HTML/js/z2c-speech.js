@@ -65,7 +65,7 @@ function initPage ()
     _stop.removeClass("mic_enabled");
 
     var sessionPermissions = JSON.parse(localStorage.getItem('sessionPermissions')) ? 0 : 1;
-    var textString = $("#chat").val();
+    var textString = $("#speech").val();
     var voice = 'en-US_AllisonVoice';
     var audio = $("#a_player").get(0);
     var synthesizeURL = '/api/text-to-speech/synthesize' +
